@@ -32,7 +32,8 @@ class Sudoku:
         self.__sounds = (
             pygame.mixer.Sound(GameConstants.SOUND_FILE_CLICK),
             pygame.mixer.Sound(GameConstants.SOUND_FILE_GAMEOVER),
-            pygame.mixer.Sound(GameConstants.SOUND_FILE_SCREEN)
+            pygame.mixer.Sound(GameConstants.SOUND_FILE_SCREEN),
+            pygame.mixer.Sound(GameConstants.SOUND_FILE_BELL)
         )
 
     def start(self):
